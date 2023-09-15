@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 900px;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+#pic-and-name {
+    display: flex;
+    flex-direction: column;
+    background-color: #4e6f76;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#pic {
+    max-width: 50%;
+    border-radius: 50%;
+    border: solid white;
+}
+
+#name {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    padding-top: 5%;
+}
+
+#info-header {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#info-box {
+    background-color: #66909b;  
+}
+
+#info {
+    text-align: center;
+}
+
+#info-content {
+    padding-left: 2%;
+    margin-bottom: 0em;
+}
+
+#contact-box {
+    background-color: #79a5ae;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact-content {
+    padding-left: 2%;
+    margin-bottom: 0em;
+}
+
+#stuff {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+#left-stuff {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(187, 203, 218, 0.3);
+    padding-left: 5px;
+    
+}
+
+#bottom-left {
+    margin-top: 310px;
+}
+
+#github {
+    display: grid;
+    justify-content: center;
+    margin-top: 75px;
+    padding-left: 70px;
+}
+
+#github img {
+    border-radius: 20%;
+    max-height: 150px;
+}
+
+#github h3 {
+    text-align: center;
+}
+
+#right-stuff {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 2px;
+}
+
+#estudios-banner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+#studies-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+#tech-banner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+#tech-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+#tech-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.tech-icons {
+    display: flex;
+    max-height: 70px;
+    margin:0 auto;
+}
+
+.tech-text {
+    text-align: center;
+}
+
+#lang {
+    width: 380px;
+}
+
+#lang-banner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+#lang-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+#lang-info {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    width: 500px;
+}
+
+#esp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#esp-flag {
+    width: 30%
+}
+
+#eng {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#eng-flag {
+    width: 30%;
+}
+
+#skills {
+    width: 380px;
+}
+
+#skills-banner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+#skills-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
