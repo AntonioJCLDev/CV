@@ -84,7 +84,7 @@ body {
 }
 
 #bottom-left {
-    margin-top: 135px;
+    margin-top: 80px;
 }
 
 #github {
@@ -144,7 +144,7 @@ body {
 
 .tech-icons {
     display: flex;
-    max-height: 70px;
+    max-height: 50px;
     margin:0 auto;
 }
 
